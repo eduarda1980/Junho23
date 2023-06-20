@@ -1,0 +1,102 @@
+
+
+Abrir:
+1. Meu SENAI -> Versionamento
+-Tutotrial GIT (I)
+- Tutorial II
+
+2. EAD SP -> Versionamento
+- Atividade 1: Instruções
+
+3. GIT HUB
+https://github.com/
+
+4. Instalar o GIT BASH
+
+
+*Comandos*
+
+1. git init
+
+2. git branch -M main (mudar para o branch main ou feature1)
+
+*Criar conta do usuário:*
+
+git config --global user.name "insira seu nome aqui!"
+
+git config --global user.email "insira seu e-mail aqui!"
+
+
+3. git add versoes.txt
+
+4. git status
+
+5.  git commit -m "Arquivo Versoes"
+
+6. git log
+
+--------------------------------------
+7. git add index.txt
+
+8. git status
+
+9.  git commit -m "Arquivo Index"
+
+10. git remote add origin (copie e cole o endereço HTTPs do GitHub AQUI!)
+
+11. git remote –v
+
+12. git push -u origin main
+
+*se errou no passo 10, digite: git remote rm origin (remove)
+
+-----------------------------------------------------------------
+-Criar uma nova ramificação - BRANCH:
+
+1. git checkout -b feature1 (insira o nome da nova BRANCH)
+
+A partir da branch principal do seu repositório, criamos uma ramificação de uma nova funcionalidade.
+
+2. git status
+Visualiza a nova branch criada
+
+3. git push origin feature1
+
+*Seguir os passos do material em anexo na atividade 1.
+*Arquivo na prática* p.17
+
+----------------------------------------------------------
+Dentro da ramificação *feature1*:
+git merge main 
+
+o Git merge permite que você pegue as linhas criadas a partir do Git branch e faça uma integração (união) para a ramificação principal. É importante notar que o comando git branch cria uma nova ramificação a partir da branch que o desenvolvedor está situado.
+
+
+-sair de uma ramificação p outra:
+git checkout master ou nova branch ou main
+
+Exemplo: git checkout main (volta para a raiz)
+
+-Ir para outra ramificação:
+git checkout main
+
+-Visualizar branch:
+git branch
+
+
+--------------------------------------------------------
+Subir para o GIT HUB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
